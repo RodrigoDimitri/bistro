@@ -1,0 +1,115 @@
+
+  .bg-primary {
+    background-color: purple;
+  }
+
+  .bg-secondary {
+    background-color: blueviolet;
+    background: blueviolet;
+  }
+
+  .bg-white {
+    background-color: white;
+  }
+
+  .bg-blue {
+    background-color: blue;
+  }
+
+  .bg-gray {
+    background-color: gray;
+  }
+
+  .bg-green {
+    background-color: green;
+  }
+
+  .bg-red {
+    background-color: red;
+  }
+
+  .bg-warning {
+    background-color: goldenrod;
+  }
+
+  navb {
+    height: 65px;
+    overflow: hidden;
+    background-color: purple;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: center;
+  }
+
+  main {
+    padding: 5px;
+    margin-top: 65px;
+    /* background-color: blueviolet; */
+  }
+
+  /* https://www.w3schools.com/css/css3_flexbox.asp */
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .flex-container>div {
+    height: 100%;
+    margin: 5px;
+    text-align: center;
+    /* font-size: 1.5vw; */
+  }
+
+  .text-white {
+    color: white;
+  }
+
+  .text-primary {
+    color: purple;
+  }
+
+  .text-secondary {
+    color: blueviolet;
+  }
+
+  .text-red {
+    color: red;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: purple;
+    color: white;
+    /* text-align: center; */
+  }
+
+  .text-center {
+    text-align: center;
+  }
+
+  .mycard {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+    /* text-align: justify;
+    text-justify: inter-word; */
+    /* box-shadow: 0px 0px 3px 1px grey; */
+  }
+
+  #toast-container {
+    min-width: 10%;
+    top: 0%;
+    right: 50%;
+    transform: translateX(50%) translateY(30%);
+}
+
+  /* .hover:hover {
+    opacity: 0.7;
+    transition: all 0s;
+  } */
